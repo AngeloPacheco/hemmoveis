@@ -1,0 +1,45 @@
+
+Colunas Bootstrap
+Cel: .col-xs-	.
+Tablets col-sm-	
+Desktop .col-md-	
+Grandes.col-lg-
+
+
+
+
+<?php
+                        
+                        if($_POST['enviar']){
+							
+							  $nome = $_POST['nome'];
+							  $cidade = $_POST['cidade'];
+							  $telefone = $_POST['telefone'];
+							  $email = $_POST['email'];
+							  $msg = $_POST['msg'];
+							  
+							  $email_destino = "hemmoveis@gmail.com"; 
+
+							    $html ="<html>
+							            <body>
+							              <h3>Contato enviado pelo cliente " . $nome . "</h3>
+							               <p>
+							                  Cidade : " . $cidade . "<br>
+							                  Telefone : " .$telefone . "<br>
+							                  E-mail : " . $email . "<br>
+							                  Mensagem : " . $msg . "
+							               </p>
+							            </body>
+							          </html>";
+
+							    $headers = "Content-type: text/html; charset=iso-8859-1\r\n";      
+
+							    mail( $email_destino,
+							         "Contato do cliente : " . $nome,
+							         $html,
+							         $headers); 
+						}    
+					?>
+
+
+http://pt.stackoverflow.com/questions/174883/formul%C3%A1rio-de-contato-com-ajax-sem-refresh					
