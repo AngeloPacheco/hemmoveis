@@ -1,0 +1,162 @@
+
+body{
+	padding-top: 70px;
+}
+
+* { 
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+
+
+.madeira-top{
+    background: url(../img/madeira.jpg);
+    height: 130px;
+  
+}
+
+.logo{
+    margin-top: 30px;
+    height: 50px;
+    display: block;
+    max-width: 100%;
+   margin-left: 30px;
+}
+
+.divslider{
+    padding-top: 85px;
+    padding-bottom: 5px;
+    background: url(../img/bg-slider.jpg);
+}
+
+
+.madeira-body-projetos{
+    background: url(../img/madeira.jpg);
+    height: 950px;
+    box-shadow: 13px 21px 38px -10px;
+}
+
+.madeira-body-contato{
+    background: url(../img/madeira.jpg);
+    height: 850px;
+    box-shadow: 13px 21px 38px -10px;
+}
+
+
+
+.zoom-mais:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+     transform: scale(1.1);
+ }
+
+/*
+.fade-in{
+         opacity:.5;
+
+}
+.fade-in:hover{
+         opacity:1;
+}
+*/
+
+section{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    min-height: 50vh;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+footer{
+    padding-top: 15px;
+    
+    position: fixed;
+}
+
+.btn-enviar{
+    margin-top: 30px;
+}
+
+.atendimento{
+    font-size: 24px;
+    padding-bottom: 10px;
+    margin-left: 15px;
+
+}
+.atendimento-icons{
+    padding-bottom: 5px;
+    margin-left: 15px;
+}
+.atendimento-itens{
+    padding-bottom: 10px;
+    margin-left: 10px;
+}
+
+.btn_all_projetos{
+    padding-top: 80px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color:#000000;
+    font-size: 16px;
+    color: #777;
+    
+
+    font-family: "Source Sans Pro",sans-serif;
+    
+
+}
+
+.construcao-boneco{
+    height: 110px;
+    margin-bottom:90px;
+}
+
+.madeira-construcao{
+    background: url(../img/bg-slider-madeira.jpg);
+    height: 80px;
+    box-shadow: 20px 20px 20px 30px;
+}
+
+.body-construcao{
+    background-color: #DCDCDC;
+}
+
+.jumbotron-contrucao{
+   background: url(../img/bg-slider-madeira.jpg);
+   font-family: fantasy; 
+   box-shadow: 13px 21px 38px -10px;
+       height: 176px;
+}
+
+.footer-contrucao{
+    margin-top: 5px;
+}
+
+.fa {
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a { 
+    color: inherit; 
+} 
+
