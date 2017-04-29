@@ -68,9 +68,8 @@
 		            <li><a class="" href="#contato">Fale Conosco</a></li>
 	            </ul>
 	        </div>
-	      </div> 
-	      </div>     
-	    </nav>
+	    </div>    
+	</nav>
 
 	    <!--Slider-->
 	    <div class="divslider" id="slideshow">
